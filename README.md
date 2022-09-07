@@ -1,2 +1,0 @@
-# Anicon
-Created with CodeSandbox
