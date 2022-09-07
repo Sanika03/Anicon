@@ -1,4 +1,14 @@
 .App {
-  font-family: sans-serif;
+  font-family: "Qwitcher Grypen", cursive;
   text-align: center;
+}
+
+input {
+  padding: 1rem;
+  width: 80%;
+  border: 2px solid black;
+}
+
+body {
+  background-color: bisque;
 }
