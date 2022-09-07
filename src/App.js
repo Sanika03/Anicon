@@ -1,4 +1,18 @@
+import React, { useState } from "react";
 import "./styles.css";
+
+var emojiDictionary = {
+  "🐕": "Dog",
+  "🐈": "Cat",
+  "🐒": "Monkey",
+  "🦍": "Gorilla",
+  "🦧": "Orangutan",
+  "🐄": "Cow",
+  "🐅": "Tiger",
+  "🐆": "Leopard",
+  "🐎": "Horse",
+  "🦌": "Deer"
+};
 
 export default function App() {
   return (
