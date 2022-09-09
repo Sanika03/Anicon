@@ -12,3 +12,34 @@ input {
 body {
   background-color: bisque;
 }
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+.footer .footer-header {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  align-self: center;
+  display: inline-block;
+  padding: 0rem 0.5rem;
+}
