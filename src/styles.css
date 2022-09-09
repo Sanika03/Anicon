@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+}
+
 input {
   padding: 1rem;
   width: 80%;
@@ -11,4 +15,40 @@ input {
 
 body {
   background-color: bisque;
+}
+
+footer {
+  width: 100%;
+  background-color: white;
+  padding: 2rem 1rem;
+  color: white;
+  text-align: center;
+  position: fixed;
+  margin: 12% 0%;
+}
+
+.footer .footer-header {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  padding-inline-end: 3%;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+  padding-inline-end: 3%;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  align-self: center;
+  display: inline-block;
+  padding: 0rem 0.5rem;
 }
